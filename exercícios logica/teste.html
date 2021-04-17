@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script> 
+
+function pulaLinha(){
+    document.write("<br> <br>"); 
+}
+
+function exibe(txt){
+    document.write(txt);
+    pulaLinha();
+}
+
+var idadeBrasil = 1500 
+var anoAtual = 2021 
+var idadeMediaQuandoTemFilhos = 28 
+var media = (anoAtual - idadeBrasil)/idadeMediaQuandoTemFilhos
+
+exibe("A média de gerações brasileiras é de " + Math.round(media));
+
+exibe("teste");
+
+</script>
